@@ -1,0 +1,63 @@
+Q-1. What do you understand By Database
+
+A database is a structured collection of data that is organized and stored electronically in a computer system. It is designed to efficiently manage, store, and retrieve large volumes of data in a way that ensures data integrity, security, and accessibility.
+
+
+
+Q-2. What is Normalization?
+
+Normalization is a process used in database design to organize a relational database schema efficiently and minimize redundancy and dependency. It involves breaking down larger tables into smaller, related tables and defining relationships between them. 
+
+
+
+Q-3. What is Difference between DBMS and RDBMS?
+
+DBMS (Database Management System) and RDBMS (Relational Database Management System) differ primarily in their approach to managing data. While both systems organize and store data, RDBMS specifically focuses on relational databases, utilizing tables, rows, and columns to establish relationships between data. RDBMS enforces strict data integrity through constraints like primary and foreign keys, ensuring consistency and accuracy. It primarily uses SQL (Structured Query Language) for querying and manipulation, whereas DBMS may support various data models and query languages. RDBMS, optimized for scalability and performance, excels in managing large-scale relational databases efficiently, making it ideal for enterprise-level applications, whereas DBMS offers more flexibility but may lack the robustness and integrity enforcement of RDBMS.
+
+
+
+Q-4. What is MF Cod Rule of RDBMS Systems?
+
+Codd's twelve rules are a set of thirteen rules (numbered zero to twelve) proposed by Edgar F. Codd, a pioneer of the relational model for databases, designed to define what is required from a database management system in order for it to be considered relational, i.e., a relational database management system (RDBMS).
+
+
+
+Q-5. What do you understand By Data Redundancy?
+
+Data redundancy refers to the duplication of data within a database or across multiple databases. 
+
+
+
+Q-7. What is DDL Interpreter?
+
+A DDL (Data Definition Language) interpreter is a component or module within a database management system (DBMS) responsible for executing and processing DDL statements.
+
+
+
+Q-8. What is SQL Key Constraints writing an Example of SQL Key Constraints
+
+SQL key constraints are rules applied to columns or groups of columns in a relational database table to enforce data integrity and define relationships between tables. 
+
+
+
+Q-9. What is save Point? How to create a save Point write a Query?
+
+A savepoint is a named transaction marker within a transaction block in a database system. It allows you to set points within a transaction to which you can later roll back if needed, without rolling back the entire transaction. Savepoints provide a way to divide a transaction into smaller, more manageable parts and selectively rollback changes if necessary. here is how you can create a savepoint:
+SAVEPOINT savepoint_name;
+
+
+
+Q-10. What is trigger and how to create a Trigger in SQL?
+
+In SQL, a trigger is a special type of stored procedure that automatically executes in response to certain events or actions performed on a table or view. These events include INSERT, UPDATE, and DELETE operations.
+Here's a basic syntax for creating a trigger in SQL:
+
+CREATE TRIGGER trigger_name
+{BEFORE | AFTER} {INSERT | UPDATE | DELETE}
+ON table_name
+FOR EACH ROW
+BEGIN
+    -- Trigger body
+END;
+
+
