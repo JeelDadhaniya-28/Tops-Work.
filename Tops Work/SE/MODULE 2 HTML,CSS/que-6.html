@@ -1,0 +1,118 @@
+<!-- 6. Create below table using HTML table tags -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            padding-left: 14%;
+            padding-top: 25px;
+            background-color: rgb(17, 178, 17);
+        }
+
+        th, td {
+            border: 1px solid rgb(255, 255, 255);
+        }
+        #first{
+            text-align: center;
+            height: 75px;
+            width: 75px;
+            background-color: tomato;
+            color: white;
+        }
+        #second{
+            text-align: center;
+            height: 75px;
+            width: 76px;
+            background-color: black;
+            color: white;
+        }
+        #third{
+            color: white;
+            text-align: center;
+        }
+        #four{
+            color: white; 
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1 style="color: rgb(0, 0, 0); padding-left: 33%;">European Roulette</h1>
+
+    <table>
+        <td rowspan="10" style="text-align: center; color: white; width: 60px;">0</td>
+        <tr>
+            <td id="first">3</td>
+            <td id="second">6</td>
+            <td id="first">9</td>
+            <td id="first">12</td>
+            <td id="second">15</td>
+            <td id="first">18</td>
+            <td id="first">21</td>
+            <td id="second">24</td>
+            <td id="first">27</td>
+            <td id="first">30</td>
+            <td id="second">33</td>
+            <td id="first">36</td>
+            <td style="color: white;">2to1</td>
+        </tr>
+
+        <tr>
+            <td id="second">2</td>
+            <td id="first">5</td>
+            <td id="second">8</td>
+            <td id="second">11</td>
+            <td id="first">14</td>
+            <td id="second">17</td>
+            <td id="second">20</td>
+            <td id="first">23</td>
+            <td id="second">26</td>
+            <td id="second">29</td>
+            <td id="first">32</td>
+            <td id="second">35</td>
+            <td style="color: white;">2to1</td>
+        </tr>
+
+        <tr>
+            <td id="first">1</td>
+            <td id="second">4</td>
+            <td id="first">7</td>
+            <td id="second">10</td>
+            <td id="second">13</td>
+            <td id="first">16</td>
+            <td id="first">19</td>
+            <td id="second">22</td>
+            <td id="first">25</td>
+            <td id="second">28</td>
+            <td id="second">31</td>
+            <td id="first">34</td>
+            <td style="color: white; width: 60px;">2to1</td>
+        </tr>
+
+        <tr>
+            <td colspan = "4"; id="third">1st12</td>
+            <td colspan = "4"; id="third">2nd12</td>
+            <td colspan = "4"; id="third">3rd12</td>
+            <td colspan = "4"; rowspan="2" id="third"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" id="four">1to18</td>
+            <td colspan="2" id="four">EVEN</td>
+            <td colspan="2" id="first"></td>
+            <td colspan="2" id="second"></td>
+            <td colspan="2" id="four">OOD</td>
+            <td colspan="2" id="four">19to36</td>
+        </tr>
+
+        
+    </table>
+</body>
+</html>
